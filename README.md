@@ -10,8 +10,10 @@ https://github.com/neptune46/ffmpeg-vscode/blob/master/README.md
 https://github.com/Intel-Media-SDK/MediaSDK#how-to-build
 
 ```bash
-# vpp scaling
-./sample_vpp -lib hw -vaapi -sw 320 -sh 240 -dw 640 -dh 480 -scc nv12 -dcc nv12 -i test.yuv -o out.yuv
+# vpp scaling + csc
+./sample_vpp -lib hw -vaapi -sw 320 -sh 240 -dw 640 -dh 480 -scc nv12 -dcc rgbp -i test.yuv -o out.yuv
+# ffmpeg doesn't support rgbp but gbrp
+ffplay -s 640x480 -pix_fmt gbrp -i out.rgb 
 ```
 
 ## build opencl
