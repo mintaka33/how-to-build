@@ -9,6 +9,10 @@ https://github.com/neptune46/ffmpeg-vscode/blob/master/README.md
 ## build MSDK
 https://github.com/Intel-Media-SDK/MediaSDK#how-to-build
 
+```bash
+# vpp scaling
+./sample_vpp -lib hw -vaapi -sw 320 -sh 240 -dw 640 -dh 480 -scc nv12 -dcc nv12 -i test.yuv -o out.yuv
+```
 
 ## build opencl
 https://github.com/mintaka33/vaapi-opencl-interop/blob/master/README.md
