@@ -4,6 +4,8 @@ https://github.com/mintaka33/ffva/blob/master/notes.md
 
 https://github.com/neptune46/ffmpeg-vscode/blob/master/README.md
 
+# build gstreamer
+https://github.com/mintaka33/how-to-build/blob/master/gstreamer.md
 
 # build MSDK
 https://github.com/Intel-Media-SDK/MediaSDK#how-to-build
