@@ -1,11 +1,13 @@
 
-# build ffmpeg
-https://github.com/mintaka33/ffva/blob/master/notes.md
+# build media-driver
+https://github.com/intel/libva
 
-https://github.com/neptune46/ffmpeg-vscode/blob/master/README.md
+https://github.com/intel/media-driver
 
-# build gstreamer
-https://github.com/mintaka33/how-to-build/blob/master/gstreamer.md
+https://github.com/intel/gmmlib
+
+https://github.com/intel/libva-utils
+
 
 # build MSDK
 https://github.com/Intel-Media-SDK/MediaSDK#how-to-build
@@ -16,6 +18,14 @@ https://github.com/Intel-Media-SDK/MediaSDK#how-to-build
 # ffmpeg doesn't support rgbp but gbrp
 ffplay -s 640x480 -pix_fmt gbrp -i out.rgb 
 ```
+
+# build ffmpeg
+https://github.com/mintaka33/ffva/blob/master/notes.md
+
+https://github.com/neptune46/ffmpeg-vscode/blob/master/README.md
+
+# build gstreamer
+https://github.com/mintaka33/how-to-build/blob/master/gstreamer.md
 
 # build opencl
 https://github.com/mintaka33/vaapi-opencl-interop/blob/master/README.md
