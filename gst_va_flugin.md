@@ -4,6 +4,7 @@ https://github.com/opencv/gst-video-analytics
 https://github.com/opencv/gst-video-analytics/wiki
 https://github.com/opencv/gst-video-analytics/wiki/Getting-Started-Guide-%5BR2%5D#install-in-docker-image
 https://github.com/opencv/gst-video-analytics/wiki/Getting-Started-Guide-%5BR2%5D#run-samples
+https://github.com/opencv/gst-video-analytics/tree/master/samples/shell
 
 # Pull docker image from docker hub
 
