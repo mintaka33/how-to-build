@@ -17,6 +17,12 @@ docker pull mintaka33/gst-va-plugin:ver1
 
 # Run docker image
 
+**Some GVA plugin samples use display, so the following command should be used to connect the host's system X server from the docker image:**
+
+```bash
+xhost local:root
+```
+
 ```bash
 sudo docker run -it --privileged --net=host \
 \
