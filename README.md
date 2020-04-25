@@ -44,7 +44,7 @@ https://github.com/mintaka33/intel-openvino-setup/blob/master/linux-setup.md
 
 
 # build intel-gpu-tools
-https://github.com/mintaka33/i915-notes/blob/master/intel-gpu-tools.md
+https://github.com/mintaka33/notebook/blob/master/i915/intel-gpu-tools.md
 
 
 # build linux kernel
